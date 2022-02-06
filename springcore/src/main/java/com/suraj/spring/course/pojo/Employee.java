@@ -5,7 +5,8 @@ package com.suraj.spring.course.pojo;
  * 1. Create the POJO
  * 2. Create the configuration file
  * 3. Create test class 
- *  
+ *  So far we have learnt how to inject primitive types
+ *  Now will see how to inject collection types 
  * */
 
 public class Employee {
