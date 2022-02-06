@@ -10,9 +10,8 @@
 	   <property name="id">
 	   <value>20</value>
 	   </property>
-	   <property name="name">
-	   <value>hulk</value>
-	   </property>
+	   <property name="name" value="hulk"/>
+	  
 	   
 	   </bean>
 	   
