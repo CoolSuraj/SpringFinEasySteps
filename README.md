@@ -1,2 +1,2 @@
 # SpringFinEasySteps
-Bharath Thipireddy course code
+some learning code
