@@ -10,6 +10,7 @@ public class setTest {
 		CarDealer bean = (CarDealer) context.getBean("CarDealer"); //setting the bean object
 		System.out.println(bean.getName());
 		System.out.println(bean.getModels());  //injected set Wohoooo!!!
+		System.out.println(bean.getModels().getClass());
 		
 	}
 
