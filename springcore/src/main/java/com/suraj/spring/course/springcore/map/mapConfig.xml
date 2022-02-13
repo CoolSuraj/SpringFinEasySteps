@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<bean name="Customer"
+		class="com.suraj.spring.course.springcore.map.Customer" p:id="20">
+
+		<property name="products">
+			<map>
+				<entry key="100" value="Iphone"></entry>
+				<entry key="200">
+					<value>Linux phone</value>
+				</entry>
+				<entry value="Andriod">
+					<key>
+						<value>300</value>
+					</key>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+
+
+</beans>
