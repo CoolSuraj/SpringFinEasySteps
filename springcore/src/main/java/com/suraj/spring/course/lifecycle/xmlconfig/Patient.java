@@ -1,5 +1,5 @@
 package com.suraj.spring.course.lifecycle.xmlconfig;
-//poja
+//pojo
 public class Patient {
 	int id;
 
