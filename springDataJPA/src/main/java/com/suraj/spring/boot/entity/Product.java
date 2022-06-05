@@ -10,7 +10,17 @@ public class Product {
 	private String description;
 	private Double price;
 	
+	
+	
+//	public Product(Long id, String name, String description, Double price) {
+//		super();
+//		this.id = id;
+//		this.name = name;
+//		this.description = description;
+//		this.price = price;
+//	}
 	@Id
+	//@GeneratedValue(strategy=GenerationType.IDENTITY)
 	public Long getId() {
 		return id;
 	}
@@ -35,5 +45,11 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price + "]";
+	}
+	
+	
 	
 }
