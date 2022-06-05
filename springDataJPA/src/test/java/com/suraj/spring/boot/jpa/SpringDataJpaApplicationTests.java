@@ -72,6 +72,12 @@ class SpringDataJpaApplicationTests {
 		});
 
 	}
+	
+	@Test
+	public void finderMethod() {
+		System.out.println("finder method");
+		System.out.println(repo.findByName("Abhu"));
+	}
 
 	@Test
 	void contextLoads() {
