@@ -12,8 +12,8 @@ import com.suraj.spring.boot.repos.ProductRepo;
 @SpringBootTest
 class SpringDataRestApplicationTests {
 
-//	@Autowired
-//	ApplicationContext context;
+	//@Autowired
+	//ApplicationContext context;
 
 	@Autowired
 	ProductRepo repo;

@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication(scanBasePackages={"com.suraj.spring.*"})//this is to be written so that it will scan respective packages
-//if we put this class in com.suraj.spring.boot it might not need scanBasePackages
+@SpringBootApplication(scanBasePackages={"com.suraj.spring.*"})//this is to be written so that it will scan respective packages //if we put this class in com.suraj.spring.boot it might not need scanBasePackages
 @EnableJpaRepositories(basePackages ={"com.suraj.spring.*"}) //Imp for JPA
 @EntityScan("com.suraj.spring.*") //Imp for Scanning entities not used earlier but now necessary
 public class SpringDataRestApplication {
